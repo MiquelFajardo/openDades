@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="postgresql-42.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Llibreries java/BBDD/postgresql-42.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/Llibreries java/Testing/h2-2.1.214.jar!/" />
+      <root url="jar://$USER_HOME$/Llibreries java/Testing/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Llibreries java/Testing/junit-4.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/Llibreries java/Testing/junit-jupiter-5.9.3.jar!/" />
+      <root url="jar://$USER_HOME$/Llibreries java/JSON/json-20230618.jar!/" />
+      <root url="file://$USER_HOME$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/.local/share/Trash/files/openJSON/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$USER_HOME$/Llibreries java/Tomcat/apache-tomcat-10.1.11/webapps/docs/appdev/sample/src" />
+      <root url="file://$USER_HOME$/Llibreries java/Tomcat/apache-tomcat-10.1.11/webapps/examples/WEB-INF/classes" />
+    </SOURCES>
+  </library>
+</component>
