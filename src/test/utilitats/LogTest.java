@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Test de la classe utilitats log
+ * Test log
  *
  * @author Miquel Fajardo <miquel.fajardo@protonmail.com>
  */
@@ -21,14 +21,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LogTest {
     private final static String DIRECTORI_LOG = "logs";
-    private final static String ARXIU_PROVA =  DIRECTORI_LOG + FileSystems.getDefault().getSeparator() +"provalog.log";
+    private final static String ARXIU_PROVA =  "provalog.log";
 
     @Test
     @Order(1)
     public void testCrearLog() {
         Log.escriure(ARXIU_PROVA, "prova log");
-        assertTrue(Arxiu.existeix(ARXIU_PROVA));
-        Arxiu.eliminarArxiu(ARXIU_PROVA);
-        assertFalse(Arxiu.existeix(ARXIU_PROVA));
+        assertTrue(Arxiu.existeix(DIRECTORI_LOG + FileSystems.getDefault().getSeparator() + ARXIU_PROVA));
+        Arxiu.eliminarArxiu(DIRECTORI_LOG + FileSystems.getDefault().getSeparator()  + ARXIU_PROVA);
+        assertFalse(Arxiu.existeix(DIRECTORI_LOG + FileSystems.getDefault().getSeparator() + ARXIU_PROVA));
     }
 }

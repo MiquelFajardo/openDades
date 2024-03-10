@@ -23,6 +23,7 @@ public class Log {
         Date ara = new Date();
         SimpleDateFormat formatData = new SimpleDateFormat("dd/MM/yyy HH:mm");
         String dataActual = formatData.format(ara);
+        arxiu = DIRECTORI_LOG + FileSystems.getDefault().getSeparator() + arxiu;
 
         try {
             if(!Arxiu.existeix(DIRECTORI_LOG)) Arxiu.crearDirectori(DIRECTORI_LOG);

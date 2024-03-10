@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Primer commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilitats/Arxiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilitats/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/utilitats/ArxiuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/utilitats/LogTest.java" afterDir="false" />
+    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Utilitats log i arxiu. Testejades">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openDades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/openDades.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilitats/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilitats/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/utilitats/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/utilitats/LogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,8 @@
     "JUnit.ArxiuTest.executor": "Run",
     "JUnit.ArxiuTest.testCrearArxiu.executor": "Run",
     "JUnit.LogTest.executor": "Run",
+    "JUnit.PostgresSQLTest.executor": "Run",
+    "JUnit.PostgresSQLTest.testCrearBaseDades.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -62,14 +62,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "desenvolupador",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/miquel/Llibreries java/JSON/json-20230618.jar",
+    "last_opened_file_path": "/home/miquel/Llibreries java/BBDD/postgresql-42.6.0.jar",
     "onboarding.tips.debug.path": "/home/miquel/IdeaProjects/openDades/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LogTest">
+  <component name="RunManager" selected="JUnit.PostgresSQLTest">
     <configuration name="ArxiuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openDades" />
       <extension name="coverage">
@@ -116,9 +116,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostgresSQLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openDades" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.baseDades.postgresSQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.baseDades.postgresSQL" />
+      <option name="MAIN_CLASS_NAME" value="test.baseDades.postgresSQL.PostgresSQLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgresSQLTest.testCrearBaseDades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openDades" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.baseDades.postgresSQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.baseDades.postgresSQL" />
+      <option name="MAIN_CLASS_NAME" value="test.baseDades.postgresSQL.PostgresSQLTest" />
+      <option name="METHOD_NAME" value="testCrearBaseDades" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostgresSQLTest" />
         <item itemvalue="JUnit.LogTest" />
+        <item itemvalue="JUnit.PostgresSQLTest.testCrearBaseDades" />
         <item itemvalue="JUnit.ArxiuTest" />
         <item itemvalue="JUnit.ArxiuTest.testCrearArxiu" />
       </list>
@@ -156,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709996057611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Utilitats log i arxiu. Testejades">
+      <option name="closed" value="true" />
+      <created>1709998905820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709998905820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +213,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Utilitats log i arxiu. Testejades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilitats log i arxiu. Testejades" />
   </component>
 </project>

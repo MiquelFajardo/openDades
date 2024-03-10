@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="postgresql-42.6.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Llibreries java/BBDD/postgresql-42.6.0.jar!/" />
       <root url="jar://$USER_HOME$/Llibreries java/Testing/h2-2.1.214.jar!/" />
       <root url="jar://$USER_HOME$/Llibreries java/Testing/hamcrest-core-1.3.jar!/" />
       <root url="jar://$USER_HOME$/Llibreries java/Testing/junit-4.13.2.jar!/" />
