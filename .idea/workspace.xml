@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Utilitats log i arxiu. Testejades">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/MenuPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/PantallaInici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/postgres/DashboardPostgres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/ColumnaInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openDades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/openDades.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilitats/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilitats/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilitats/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/utilitats/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,57 +48,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ArxiuTest.executor": "Run",
-    "JUnit.ArxiuTest.testCrearArxiu.executor": "Run",
-    "JUnit.LogTest.executor": "Run",
-    "JUnit.PostgresSQLTest.executor": "Run",
-    "JUnit.PostgresSQLTest.testCrearBaseDades.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "desenvolupador",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/miquel/Llibreries java/BBDD/postgresql-42.6.0.jar",
-    "onboarding.tips.debug.path": "/home/miquel/IdeaProjects/openDades/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15527344",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prova.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ArxiuTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ArxiuTest.testCrearArxiu.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostgresSQLTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostgresSQLTest.testCrearBaseDades.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;desenvolupador&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/miquel/Llibreries java/BBDD/postgresql-42.6.0.jar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/miquel/IdeaProjects/openDades/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.PostgresSQLTest">
-    <configuration name="ArxiuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="openDades" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.utilitats.*" />
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.utilitats" />
-      <option name="MAIN_CLASS_NAME" value="test.utilitats.ArxiuTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArxiuTest.testCrearArxiu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="prova" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.desktop.prova" />
       <module name="openDades" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.utilitats.*" />
+          <option name="PATTERN" value="main.desktop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.utilitats" />
-      <option name="MAIN_CLASS_NAME" value="test.utilitats.ArxiuTest" />
-      <option name="METHOD_NAME" value="testCrearArxiu" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.prova" />
         <item itemvalue="JUnit.PostgresSQLTest" />
         <item itemvalue="JUnit.LogTest" />
         <item itemvalue="JUnit.PostgresSQLTest.testCrearBaseDades" />
-        <item itemvalue="JUnit.ArxiuTest" />
-        <item itemvalue="JUnit.ArxiuTest.testCrearArxiu" />
       </list>
     </recent_temporary>
   </component>
