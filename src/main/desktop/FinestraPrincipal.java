@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 public class FinestraPrincipal extends JFrame {
     private JPanel panellPrincipal;
     private JPanel panellMenu;
-    private JPanel panellCos;
+    private JPanel panellCentral;
     private JMenuBar menuPrincipal;
 
     public FinestraPrincipal() {
@@ -27,7 +27,7 @@ public class FinestraPrincipal extends JFrame {
         // Panells
         panellPrincipal = new JPanel(new BorderLayout());
         panellMenu = new JPanel();
-        panellCos = new JPanel();
+        panellCentral = new JPanel();
 
         // Menú principal
         // Arxiu
@@ -51,7 +51,7 @@ public class FinestraPrincipal extends JFrame {
                 );
                 if(option == JOptionPane.YES_NO_OPTION) {
                     System.exit(0);
-                    }
+                }
             }
         });
         menuArxiu.add(submenuSortir);
@@ -67,11 +67,11 @@ public class FinestraPrincipal extends JFrame {
 
         // Afegir panells i menú
         panellPrincipal.add(panellMenu, BorderLayout.NORTH);
-        panellPrincipal.add(panellCos, BorderLayout.CENTER);
+        panellPrincipal.add(panellCentral, BorderLayout.CENTER);
 
         // Afegir panell inicial
         PanellInicial panellInicial = new PanellInicial();
-        panellCos.add(panellInicial.getPanellInicial(), BorderLayout.CENTER);
+        panellCentral.add(panellInicial.getPanellInicial(), BorderLayout.CENTER);
 
         setJMenuBar(menuPrincipal);
         add(panellPrincipal);
