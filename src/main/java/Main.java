@@ -1,6 +1,6 @@
 package main.java;
 
-import main.desktop.PantallaInici;
+import main.desktop.FinestraPrincipal;
 
 import javax.swing.*;
 
@@ -11,6 +11,6 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(PantallaInici::new);
+        SwingUtilities.invokeLater(FinestraPrincipal::new);
     }
 }

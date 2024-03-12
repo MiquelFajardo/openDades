@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Utilitats log i arxiu. Testejades">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/desktop/MenuPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/desktop/PantallaInici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/desktop/postgres/DashboardPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/ColumnaInfo.java" afterDir="false" />
+    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Començar a fer l'aplicació d'escriptori">
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/FinestraPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseDades/postgreSQL/PostgresSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/baseDades/postgresSQL/PostgresSQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/MenuPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/PantallaInici.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/PanellInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/postgres/DashboardPostgres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709998905820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Començar a fer l'aplicació d'escriptori">
+      <option name="closed" value="true" />
+      <created>1710195775335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710195775335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Utilitats log i arxiu. Testejades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilitats log i arxiu. Testejades" />
+    <MESSAGE value="Començar a fer l'aplicació d'escriptori" />
+    <option name="LAST_COMMIT_MESSAGE" value="Començar a fer l'aplicació d'escriptori" />
   </component>
 </project>
