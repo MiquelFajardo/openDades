@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Començar a fer l'aplicació d'escriptori">
-      <change afterPath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" afterDir="false" />
+    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Inici aplicació connexió postgres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/desktop/FinestraPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/FinestraPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/desktop/PanellInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/PanellInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MiquelFajardo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="eaab6125-bb66-45d3-8bc5-20fc0238a728" />
+        <option name="url" value="https://github.com/MiquelFajardo/openDades.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -207,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710253327700</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inici aplicació connexió postgres">
+      <option name="closed" value="true" />
+      <created>1710274978804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710274978804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +245,7 @@
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Utilitats log i arxiu. Testejades" />
     <MESSAGE value="Començar a fer l'aplicació d'escriptori" />
-    <option name="LAST_COMMIT_MESSAGE" value="Començar a fer l'aplicació d'escriptori" />
+    <MESSAGE value="Inici aplicació connexió postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inici aplicació connexió postgres" />
   </component>
 </project>
