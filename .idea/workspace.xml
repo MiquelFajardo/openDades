@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Inici aplicació connexió postgres">
+    <list default="true" id="1ef6e7d5-b6cf-494b-b87b-e3fb9c572ab9" name="Changes" comment="Connexió postgres des de l'aplicació">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MigLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/PantallaPostgres.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/PantallaPostgres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/pantallaInici.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/desktop/pantallaInici.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/jdbc.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/jdbc.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openDades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/openDades.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/FinestraPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/PanellInicial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/postgres/PanellPostgres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/desktop/resources/icona/postgres_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/desktop/resources/icona/postgres_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,32 +72,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.prova.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ArxiuTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ArxiuTest.testCrearArxiu.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PostgresSQLTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PostgresSQLTest.testCrearBaseDades.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;desenvolupador&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/miquel/Llibreries java/BBDD/postgresql-42.6.0.jar&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/miquel/IdeaProjects/openDades/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.prova.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ArxiuTest.executor": "Run",
+    "JUnit.ArxiuTest.testCrearArxiu.executor": "Run",
+    "JUnit.LogTest.executor": "Run",
+    "JUnit.PostgresSQLTest.executor": "Run",
+    "JUnit.PostgresSQLTest.testCrearBaseDades.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "git-widget-placeholder": "desenvolupador",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/miquel/Llibreries java/BBDD/postgresql-42.6.0.jar",
+    "onboarding.tips.debug.path": "/home/miquel/IdeaProjects/openDades/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "jformdesigner.localization"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/desktop/back/postgres" />
+      <recent name="$PROJECT_DIR$/src/main/desktop" />
+      <recent name="$PROJECT_DIR$/src/main/desktop/postgres" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
@@ -99,7 +125,7 @@
       <module name="openDades" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.desktop.*" />
+          <option name="PATTERN" value="main.desktop.bak.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710274978804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Connexió postgres des de l'aplicació">
+      <option name="closed" value="true" />
+      <created>1710356903017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710356903017</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Connexió postgres des de l'aplicació">
+      <option name="closed" value="true" />
+      <created>1710356907652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710356907652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +288,7 @@
     <MESSAGE value="Utilitats log i arxiu. Testejades" />
     <MESSAGE value="Començar a fer l'aplicació d'escriptori" />
     <MESSAGE value="Inici aplicació connexió postgres" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inici aplicació connexió postgres" />
+    <MESSAGE value="Connexió postgres des de l'aplicació" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connexió postgres des de l'aplicació" />
   </component>
 </project>

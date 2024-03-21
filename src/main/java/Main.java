@@ -1,8 +1,6 @@
 package main.java;
 
-import main.desktop.FinestraPrincipal;
-
-import javax.swing.*;
+import main.desktop.pantallaInici;
 
 /**
  * Aplicació per treballar amb dades
@@ -11,6 +9,6 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(FinestraPrincipal::new);
+        pantallaInici pantallaInici = new pantallaInici();
     }
 }

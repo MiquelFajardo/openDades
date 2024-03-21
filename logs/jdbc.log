@@ -20,3 +20,11 @@ org.postgresql.util.PSQLException: FATAL: database "prova_open_dade" does not ex
 org.postgresql.util.PSQLException: FATAL: database "prova_open_dadeS" does not exist
 13/03/2024 20:05 - No s'ha pogut realitzar la connexió amb la base de dades
 org.postgresql.util.PSQLException: Connection to 127.0.0.11:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+14/03/2024 14:23 - No s'ha pogut realitzar la connexió amb la base de dades
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "openUser"
+17/03/2024 12:29 - No s'ha pogut realitzar la connexió amb la base de dades
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "openUser"
+21/03/2024 21:18 - No s'ha pogut realitzar la connexió amb la base de dades
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "openUserk"
+21/03/2024 21:21 - No s'ha pogut realitzar la connexió amb la base de dades
+org.postgresql.util.PSQLException: FATAL: database "prova_open_dadess" does not exist
